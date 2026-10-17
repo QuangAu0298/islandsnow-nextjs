@@ -1,4 +1,4 @@
-import { Container, Row, Col, NavLink, NavDropdown } from 'react-bootstrap';
+import { Container, Row, Col, NavLink, NavDropdown, DropdownItem } from 'react-bootstrap';
 
 
 const MiddleMenu = () => (
@@ -7,22 +7,22 @@ const MiddleMenu = () => (
   <Row>
     <Col>
       <NavDropdown title="MEN">
-        <NavDropdown.Item></NavDropdown.Item>
+        <DropdownItem></DropdownItem>
       </NavDropdown>
     </Col>
     <Col>
       <NavDropdown title="WOMEN">
-        <NavDropdown.Item></NavDropdown.Item>
+        <DropdownItem></DropdownItem>
       </NavDropdown>
     </Col>
     <Col>
       <NavDropdown title="KIDS">
-        <NavDropdown.Item></NavDropdown.Item>
+        <DropdownItem></DropdownItem>
       </NavDropdown>
     </Col>
     <Col>
       <NavDropdown title="BRANDS">
-        <NavDropdown.Item></NavDropdown.Item>
+        <DropdownItem></DropdownItem>
       </NavDropdown>
     </Col>
     <Col>

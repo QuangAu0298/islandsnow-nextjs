@@ -1,4 +1,4 @@
-import { Container, Nav, NavLink, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, NavLink, Navbar, NavDropdown, DropdownItem, DropdownItemText } from 'react-bootstrap';
 import { Facebook, TwitterX, Pinterest, Instagram, HouseFill, Search, PersonFill, Cart } from 'react-bootstrap-icons';
 
 const TopMenu = () => (
@@ -32,9 +32,9 @@ const TopMenu = () => (
           {' '}
         </NavLink>
         <NavDropdown title={<Cart />}>
-          <NavDropdown.Item>
-            <NavDropdown.ItemText>Your cart is currently empty.</NavDropdown.ItemText>
-          </NavDropdown.Item>
+          <DropdownItem>
+            <DropdownItemText>Your cart is currently empty.</DropdownItemText>
+          </DropdownItem>
         </NavDropdown>
       </Nav>
     </Container>
